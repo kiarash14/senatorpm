@@ -7,7 +7,7 @@
 |_|  |_|___/\__, |     |_| \_\___||___/\__,_|_| |_|
             |___/
 */
-define('API_KEY','توکن شما');
+define('API_KEY',291779361:AAFZE5_LwRX4RQRq8I_yvouUEYdlCzK3cGw');
 //----######------
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
@@ -116,7 +116,7 @@ var_dump(makereq('sendMessage',[
         'reply_markup'=>json_encode([
             'inline_keyboard'=>[
                 [
-                    ['text'=>"ورود به کانال",'url'=>"https://telegram.me/MsgResan"]
+                    ['text'=>"ورود به کانال",'url'=>"https://telegram.me/Senator_tea"]
                 ]
             ]
         ])
@@ -145,7 +145,7 @@ elseif(isset($update->callback_query)){
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     [
-                        ['text'=>"💠 عضویت در کانال ما!",'url'=>"https://telegram.me/msgresan"]
+                        ['text'=>"💠 عضویت در کانال ما!",'url'=>"https://telegram.me/Senator_tea"]
                     ]
                 ]
             ])
@@ -162,7 +162,7 @@ elseif(isset($update->callback_query)){
             'reply_markup'=>json_encode([
                 'inline_keyboard'=>[
                     [
-                        ['text'=>"💠 عضویت در کانال ما!",'url'=>"https://telegram.me/msgresan"]
+                        ['text'=>"💠 عضویت در کانال ما!",'url'=>"https://telegram.me/Senator_tea"]
                     ]
                 ]
             ])
@@ -184,7 +184,7 @@ var_dump(makereq('sendMessage',[
 💠 برای ساخت ربات از دکمه ی 🔄 ساخت ربات استفاده نمایید.
 
 💠 اگر با ساخت روبات آشنایی ندارید با دکمه ⚠️ راهنما میتوانید آموزش ساخت روبات را دریافت کنید.
-@MsgResan",
+@Senator_tea",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -412,7 +412,7 @@ elseif ($textmessage == '/htcb') {
 var_dump(makereq('sendMessage',[
         	'chat_id'=>$update->message->chat->id,
         	'text'=>"💠 آموزش ساخت روبات :
-[👆 کلیک برای دیدن آموزش.](https://telegram.me/msgresan/2)
+[👆 کلیک برای دیدن آموزش.](https://telegram.me/Senator_tea/178)
 ",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
@@ -492,7 +492,7 @@ var_dump(makereq('sendMessage',[
         'reply_markup'=>json_encode([
             'inline_keyboard'=>[
                 [
-                    ['text'=>"ورود",'url'=>"https://telegram.me/MsgResan"]
+                    ['text'=>"ورود",'url'=>"https://telegram.me/Senator_tea"]
                 ]
             ]
         ])
@@ -523,7 +523,7 @@ var_dump(makereq('sendMessage',[
 💠 برای ساخت ربات از دکمه ی 🔄 ساخت ربات استفاده نمایید.
 
 💠 اگر با ساخت روبات آشنایی ندارید با دکمه ⚠️ راهنما میتوانید آموزش ساخت روبات را دریافت کنید.
-@MsgResan",
+@Senator_tea",
 		'parse_mode'=>'MarkDown',
         	'reply_markup'=>json_encode([
             	'keyboard'=>[
@@ -557,7 +557,7 @@ Bot
 وجود داشته باشد.
 4⃣ یک توکن به شما میدهد مانند:
 123456:asdjhasjkdhjaksdhjasdlasjkdh
-5⃣ وارد ربات ما یعنی @MsgResanBot شوید و سپس دکمه 🔄 ساخت ربات را انتخاب کنید.
+5⃣ وارد ربات ما یعنی @senatorPmresanbot شوید و سپس دکمه 🔄 ساخت ربات را انتخاب کنید.
 و توکن دریافتی را ارسال نمایید تا ربات شما نصب شود.
 ",
 		'parse_mode'=>'MarkDown',
