@@ -67,7 +67,7 @@ $txtt = file_get_contents('banlist.txt');
 $boolean = file_get_contents('booleans.txt');
 $booleans= explode("\n",$boolean);
 $step = file_get_contents("data/".$from_id."/step.txt");
-$admin = 275387751;
+$admin = 170146015,204507468;
 
 //-------
 function SendMessage($ChatId, $TextMsg)
@@ -100,7 +100,7 @@ function save($filename,$TXTdata)
 	fclose($myfile);
 	}
 //===========
-$inch = file_get_contents("https://api.telegram.org/bot".API_KEY."/getChatMember?chat_id=@msgresan&user_id=".$from_id);
+$inch = file_get_contents("https://api.telegram.org/bot".API_KEY."/getChatMember?chat_id=@Senator_tea&user_id=".$from_id);
 	
 	if (strpos($inch , '"status":"left"') !== false ) {
 var_dump(makereq('sendMessage',[
