@@ -56,7 +56,7 @@
 	$_forward = file_get_contents("data/setting/forward.txt");
 	$_joingp = file_get_contents("data/setting/joingp.txt");
 	//------------
-	$admin = 275387751;
+	$admin = 170146015;
 	$bottype = "gold";
        $adad = file_get_contents("https://climaxit.net/sample/bots/adad.txt");
 	$step = file_get_contents("data/".$from_id."/step.txt");
