@@ -7,7 +7,7 @@
 |_|  |_|___/\__, |     |_| \_\___||___/\__,_|_| |_|
             |___/
 */
-define('API_KEY',291779361:AAFZE5_LwRX4RQRq8I_yvouUEYdlCzK3cGw');
+define('API_KEY','291779361:AAFZE5_LwRX4RQRq8I_yvouUEYdlCzK3cGw');
 //----######------
 function makereq($method,$datas=[]){
     $url = "https://api.telegram.org/bot".API_KEY."/".$method;
