@@ -67,7 +67,7 @@ $txtt = file_get_contents('banlist.txt');
 $boolean = file_get_contents('booleans.txt');
 $booleans= explode("\n",$boolean);
 $step = file_get_contents("data/".$from_id."/step.txt");
-$admin = 170146015,204507468;
+$admin = 170146015;
 
 //-------
 function SendMessage($ChatId, $TextMsg)
